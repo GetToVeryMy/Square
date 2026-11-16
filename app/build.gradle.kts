@@ -186,7 +186,7 @@ android {
         // The universal APK would otherwise carry the x86 builds some
         // dependencies ship, without the Rust core: installable on an x86
         // device, and closing at once there.
-        jniLibs.excludes += listOf("lib/x86/**", "lib/x86_64/**")
+        jniLibs.excludes += listOf("lib/armeabi-v7a/**", "lib/arm64-v8a/**")
     }
 }
 
